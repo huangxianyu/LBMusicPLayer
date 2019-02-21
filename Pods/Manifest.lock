@@ -1,0 +1,16 @@
+PODS:
+  - LBMusicPlayer (0.0.1)
+
+DEPENDENCIES:
+  - LBMusicPlayer (from `../LBMusicPlayer`)
+
+EXTERNAL SOURCES:
+  LBMusicPlayer:
+    :path: "../LBMusicPlayer"
+
+SPEC CHECKSUMS:
+  LBMusicPlayer: ed952d60821f78294cc6c4093627e7cacb697b1d
+
+PODFILE CHECKSUM: 2e54f6b8bf2f57f56e96f18fc9e41421baf62a2f
+
+COCOAPODS: 1.5.3
