@@ -10,10 +10,10 @@
 		3EE069F90DF8A124199E70CA0DC1B696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		84994B63C77944D42FBB87B80C8B3A9F /* Pods-LBMusicPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE10C90EFE77A7DE246750BB782EB52 /* Pods-LBMusicPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		860A53611F48BC627C4F034E6101BE0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		8DD1F1E8BE0F81C81499FE8CCD114337 /* LBMusicPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 482FA74EA42F76A93A03DCE18D5CE9F2 /* LBMusicPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A4F2D4A3235CBB710FE0A0B0BA1B53A /* TPOPlayMusicManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32731AF4ECC1B4D65107E5B3F572621E /* TPOPlayMusicManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1FB2567041F99D67256240F79CE8F3F /* LBMusicPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A549592F0E163C0D6A4D15ED5C78926 /* LBMusicPlayer-dummy.m */; };
-		BBF5DCB28474142B5DE9B7A875EF5632 /* TPOPlayMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E36FD05F8751EAE655731CD86E51772A /* TPOPlayMusicManager.m */; };
+		8DD1F1E8BE0F81C81499FE8CCD114337 /* LBMusicPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 536F07881585486666DBE47F2E4FAE5B /* LBMusicPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A4F2D4A3235CBB710FE0A0B0BA1B53A /* TPOPlayMusicManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A584C2CB0A9F7AD12BBF7F1B0B64EBA0 /* TPOPlayMusicManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1FB2567041F99D67256240F79CE8F3F /* LBMusicPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70313D3BFD75209F66D922A1031C4D9A /* LBMusicPlayer-dummy.m */; };
+		BBF5DCB28474142B5DE9B7A875EF5632 /* TPOPlayMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27661E681B46D5ECE797AA103DF8E3 /* TPOPlayMusicManager.m */; };
 		F511932D9474BC11979397D50464D740 /* Pods-LBMusicPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 469AF4AAEE6AB792DDC8D84257176012 /* Pods-LBMusicPlayer-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -29,27 +29,26 @@
 
 /* Begin PBXFileReference section */
 		157722C2E6BD509C65B230FB3AC6BDE1 /* Pods-LBMusicPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBMusicPlayer-resources.sh"; sourceTree = "<group>"; };
-		1B3B4FB632C91316CE939DA288124155 /* LBMusicPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBMusicPlayer-prefix.pch"; sourceTree = "<group>"; };
-		2720C2B6AF390CA5C24858A8EDF29899 /* LBMusicPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBMusicPlayer.xcconfig; sourceTree = "<group>"; };
 		2D160A2E8FE96942E3B3453F3796E76E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32731AF4ECC1B4D65107E5B3F572621E /* TPOPlayMusicManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPOPlayMusicManager.h; path = Classes/Music/TPOPlayMusicManager.h; sourceTree = "<group>"; };
 		469AF4AAEE6AB792DDC8D84257176012 /* Pods-LBMusicPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBMusicPlayer-dummy.m"; sourceTree = "<group>"; };
-		482FA74EA42F76A93A03DCE18D5CE9F2 /* LBMusicPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBMusicPlayer-umbrella.h"; sourceTree = "<group>"; };
-		55A14D7457ECDE107F934416835E638E /* LBMusicPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBMusicPlayer.modulemap; sourceTree = "<group>"; };
+		4FE201370EA34E2C6C13AEA8EF0C456C /* LBMusicPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBMusicPlayer.modulemap; sourceTree = "<group>"; };
+		536668DDCEAC5785D35EA68FFC23EAE2 /* LBMusicPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBMusicPlayer-prefix.pch"; sourceTree = "<group>"; };
+		536F07881585486666DBE47F2E4FAE5B /* LBMusicPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBMusicPlayer-umbrella.h"; sourceTree = "<group>"; };
+		553EAE2D37B5E0A6C9E73D79F4FDF496 /* LBMusicPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBMusicPlayer.xcconfig; sourceTree = "<group>"; };
 		5FE10C90EFE77A7DE246750BB782EB52 /* Pods-LBMusicPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBMusicPlayer-umbrella.h"; sourceTree = "<group>"; };
+		70313D3BFD75209F66D922A1031C4D9A /* LBMusicPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBMusicPlayer-dummy.m"; sourceTree = "<group>"; };
 		730F650169B712DCEDB6DFA6C5AD1685 /* Pods-LBMusicPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBMusicPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
 		774728FBAFC2A3D3F3E0AB4CFB3869CC /* Pods-LBMusicPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBMusicPlayer-frameworks.sh"; sourceTree = "<group>"; };
 		7FEB45C67572B215BA745121D76F762B /* Pods-LBMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		8376C10CE9250858B216299ED1820946 /* Pods_LBMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBMusicPlayer.framework; path = "Pods-LBMusicPlayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		864CB1ED13D3088A72E1D341E454DA20 /* Pods-LBMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A549592F0E163C0D6A4D15ED5C78926 /* LBMusicPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBMusicPlayer-dummy.m"; sourceTree = "<group>"; };
+		A584C2CB0A9F7AD12BBF7F1B0B64EBA0 /* TPOPlayMusicManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPOPlayMusicManager.h; path = Classes/Music/TPOPlayMusicManager.h; sourceTree = "<group>"; };
 		B68810A842EAD1E07F55E994A4EBEE24 /* Pods-LBMusicPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LBMusicPlayer.modulemap"; sourceTree = "<group>"; };
 		B8281675F924ED6CEFB7188A9409576E /* Pods-LBMusicPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBMusicPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD27661E681B46D5ECE797AA103DF8E3 /* TPOPlayMusicManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPOPlayMusicManager.m; path = Classes/Music/TPOPlayMusicManager.m; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D9E22184F222E7C93DE8232255D20618 /* LBMusicPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LBMusicPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DA93A0381E13D02B37BEEAEF1314A44D /* LBMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBMusicPlayer.framework; path = LBMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E36FD05F8751EAE655731CD86E51772A /* TPOPlayMusicManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPOPlayMusicManager.m; path = Classes/Music/TPOPlayMusicManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,36 +88,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		78E5C92B2B21207E69FB3C21EF4EB579 /* Support Files */ = {
+		51F0B40DCFE3634BB799D93B4DE5D210 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				55A14D7457ECDE107F934416835E638E /* LBMusicPlayer.modulemap */,
-				2720C2B6AF390CA5C24858A8EDF29899 /* LBMusicPlayer.xcconfig */,
-				9A549592F0E163C0D6A4D15ED5C78926 /* LBMusicPlayer-dummy.m */,
-				1B3B4FB632C91316CE939DA288124155 /* LBMusicPlayer-prefix.pch */,
-				482FA74EA42F76A93A03DCE18D5CE9F2 /* LBMusicPlayer-umbrella.h */,
+				4FE201370EA34E2C6C13AEA8EF0C456C /* LBMusicPlayer.modulemap */,
+				553EAE2D37B5E0A6C9E73D79F4FDF496 /* LBMusicPlayer.xcconfig */,
+				70313D3BFD75209F66D922A1031C4D9A /* LBMusicPlayer-dummy.m */,
+				536668DDCEAC5785D35EA68FFC23EAE2 /* LBMusicPlayer-prefix.pch */,
+				536F07881585486666DBE47F2E4FAE5B /* LBMusicPlayer-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Pods/Target Support Files/LBMusicPlayer";
+			path = "../Target Support Files/LBMusicPlayer";
+			sourceTree = "<group>";
+		};
+		65665771947A7A9B303612F46BA08C83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1AE9256EA17125BE9D44AA153EAF2EE /* LBMusicPlayer */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9354A39B9990937D75CF1F8575BAC7D7 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				65665771947A7A9B303612F46BA08C83 /* Pods */,
 				0F891431D35F3630EF47674316ACD81E /* Products */,
 				E0C1A6327C1B1BC7AB4DD399063BA49D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9354A39B9990937D75CF1F8575BAC7D7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A1465850BA21F157A3224772E728CB92 /* LBMusicPlayer */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		93FF29C628CD3D8E6AD655DB8E89864A /* Pods-LBMusicPlayer */ = {
@@ -139,18 +138,6 @@
 			path = "Target Support Files/Pods-LBMusicPlayer";
 			sourceTree = "<group>";
 		};
-		A1465850BA21F157A3224772E728CB92 /* LBMusicPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				32731AF4ECC1B4D65107E5B3F572621E /* TPOPlayMusicManager.h */,
-				E36FD05F8751EAE655731CD86E51772A /* TPOPlayMusicManager.m */,
-				D7EDDA013146CB72707954CF9E5B429C /* Pod */,
-				78E5C92B2B21207E69FB3C21EF4EB579 /* Support Files */,
-			);
-			name = LBMusicPlayer;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,12 +146,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D7EDDA013146CB72707954CF9E5B429C /* Pod */ = {
+		C1AE9256EA17125BE9D44AA153EAF2EE /* LBMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				D9E22184F222E7C93DE8232255D20618 /* LBMusicPlayer.podspec */,
+				A584C2CB0A9F7AD12BBF7F1B0B64EBA0 /* TPOPlayMusicManager.h */,
+				CD27661E681B46D5ECE797AA103DF8E3 /* TPOPlayMusicManager.m */,
+				51F0B40DCFE3634BB799D93B4DE5D210 /* Support Files */,
 			);
-			name = Pod;
+			name = LBMusicPlayer;
+			path = LBMusicPlayer;
 			sourceTree = "<group>";
 		};
 		E0C1A6327C1B1BC7AB4DD399063BA49D /* Targets Support Files */ = {
@@ -411,7 +401,7 @@
 		};
 		78D80C0F4EE1658A0D5513C9D7A17B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2720C2B6AF390CA5C24858A8EDF29899 /* LBMusicPlayer.xcconfig */;
+			baseConfigurationReference = 553EAE2D37B5E0A6C9E73D79F4FDF496 /* LBMusicPlayer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -548,7 +538,7 @@
 		};
 		EDD4FBD9CA2A28D9F957F3ACC5E2D3EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2720C2B6AF390CA5C24858A8EDF29899 /* LBMusicPlayer.xcconfig */;
+			baseConfigurationReference = 553EAE2D37B5E0A6C9E73D79F4FDF496 /* LBMusicPlayer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

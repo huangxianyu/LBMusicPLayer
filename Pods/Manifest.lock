@@ -2,15 +2,15 @@ PODS:
   - LBMusicPlayer (0.0.1)
 
 DEPENDENCIES:
-  - LBMusicPlayer (from `../LBMusicPlayer`)
+  - LBMusicPlayer
 
-EXTERNAL SOURCES:
-  LBMusicPlayer:
-    :path: "../LBMusicPlayer"
+SPEC REPOS:
+  https://github.com/huangxianyu/XYRepo.git:
+    - LBMusicPlayer
 
 SPEC CHECKSUMS:
-  LBMusicPlayer: ed952d60821f78294cc6c4093627e7cacb697b1d
+  LBMusicPlayer: 96c3573caa9834a68fb706b22ba5d8c882afb76b
 
-PODFILE CHECKSUM: 2e54f6b8bf2f57f56e96f18fc9e41421baf62a2f
+PODFILE CHECKSUM: 1c948892d85be76879802a9f46bb72e94282dceb
 
 COCOAPODS: 1.5.3
