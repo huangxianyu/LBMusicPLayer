@@ -7,44 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E6C18745D7D3CFAD4F513DE97B954B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 895B03269B5A6D3CCE92EAF12FD9D487 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB26840B2CD2CDB40F8A29A935233E3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8127ADEF922579B70D3858305E7FFF /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FE67A7DC268775641AD23E9CF83BE1E /* LBMusicPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF382390B5B90D5D6E885BAB02E5149 /* LBMusicPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1046B7E99E763A9478CEDEB621A21C5F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B42CBEE0393D0A8EE175CCEFDA9AC851 /* View+MASAdditions.m */; };
-		24AA095821D4A1EE5818A0374DFCD08B /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C382ECF3992737173E67EE0DC2CCD322 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		254A181E1D29E1753C8BB7E8C0C7F654 /* TPOPlayMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E97185DDE12549C0A38B484639594A28 /* TPOPlayMusicManager.m */; };
-		2D384AEC0A054664373683FD0B758073 /* TPOPlayMusicManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F879D89A5B05F7C01D987EFBC5F9A451 /* TPOPlayMusicManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49CD91D6F77E8E088F0A5C59EE86B53C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 164EECD37B76780FECF552C05FF552B9 /* ViewController+MASAdditions.m */; };
-		4A3DD37ABD9A5758C3BE31E8B1CF7B29 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB33B8AF979F146A1134ECA7684A5C6 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03E6C18745D7D3CFAD4F513DE97B954B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CB26840B2CD2CDB40F8A29A935233E3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1046B7E99E763A9478CEDEB621A21C5F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+		24AA095821D4A1EE5818A0374DFCD08B /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DAD1707183BB3AE930532A52AC6DD20 /* TPOPlayMusicManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 41C3DD4D6B7FC39F29583554381DAB82 /* TPOPlayMusicManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49CD91D6F77E8E088F0A5C59EE86B53C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
+		4A3DD37ABD9A5758C3BE31E8B1CF7B29 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B68EAAD60BD0B67B42711BF6DACDC9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		50FADD0D1A73B1AD065B54A6355CAA06 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C4AB29862E514D69D36AEA446D5D4E /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59F1F34EC8668D299B1A1BEA3AD51A98 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 761B67C5A4A909D44952BCEE2B3D22EB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61D6D891F5267AB65CD97EC2C0D4BA9C /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = B272304825BB59486371ACC79F99AEC1 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62FC1089C17519B0CDCF7BDF5500D06F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		65AD43F8BB7734430A4B11B134CFA4E0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2BC3F9D7792600E14E24CB25783C15 /* MASLayoutConstraint.m */; };
-		69E753A064765388C9FA44918F81E5A5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2726BC4C9A1AC375953C8756C71AD2 /* MASViewConstraint.m */; };
+		50FADD0D1A73B1AD065B54A6355CAA06 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F1F34EC8668D299B1A1BEA3AD51A98 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D6D891F5267AB65CD97EC2C0D4BA9C /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65AD43F8BB7734430A4B11B134CFA4E0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		69E753A064765388C9FA44918F81E5A5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
 		7F3E1B08EF69F77AEEAF19833F92E176 /* Pods-LBMusicPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 469AF4AAEE6AB792DDC8D84257176012 /* Pods-LBMusicPlayer-dummy.m */; };
-		892469602EA886064AC260E8CC7E6657 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EC65F4D4CA6DEB899E1D7A3A162FBD /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98655E9ABEE655AC980F3AB422088C38 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B53EF8A60BA9DFE11B5D2A1BE028D31 /* MASConstraint.m */; };
-		9DF1CD6D437EF1F3334EF52497102528 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC55E49AD201DDBCF3474207190E4D6 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0FDD2A6832EE4854731CDB45C4B5B9F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C97590529B730D00D29C38AE2E4AC51 /* MASConstraintMaker.m */; };
-		A9C9774D6BCA3A159F4DA9D9D0CD4196 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D931696D277EB6E3265AF1F1C2EDB296 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		C0E60F0CEF08F6B87CA7E77161017610 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EC5295107AF3B44536F979F334217380 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2B0DA35772F9F6531314F99C5E2BBDD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1053640C7FA94D77EAD25C01B57A146F /* MASCompositeConstraint.m */; };
-		C7F8E19DF007724D472F873813DC9EF8 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE5BD37F995F504556AD2BE63112EFF /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAD12EC4165B2CC0B80A5E7168037F4B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 950612A5D9AEE866BE1DF2FA33139C65 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9561A7C99AD978BA82BEC10C9DFCE04 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = D800341D6A9ABE00A9751C0ABAE24D96 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80D5ADCB3C4BFF2BCC7A8C9D0FEB360E /* TPOAudioRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C067F5A5EC29B578C41D270FDE7078DE /* TPOAudioRecordManager.m */; };
+		892469602EA886064AC260E8CC7E6657 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A0102D6E4770E53C8B5EDB90FE32E7A /* LBMusicPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 235BA31B548086F86362018DF0D49D64 /* LBMusicPlayer-dummy.m */; };
+		98655E9ABEE655AC980F3AB422088C38 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		9DF1CD6D437EF1F3334EF52497102528 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FDD2A6832EE4854731CDB45C4B5B9F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
+		A9C9774D6BCA3A159F4DA9D9D0CD4196 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		AC2D1F0CD03398E9C0C94959A2ED12B0 /* LBMusicPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C24560CEB381C8019DD0233CAC2D2D3 /* LBMusicPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEB188ABF95527BA43A64610DEDA1711 /* LBMusicPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 776770033E4F9D947E67ED05705FC856 /* LBMusicPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB5A75CBE25E0602D28EB28BE60E03AD /* TPOAudioRecordManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCF6D1E2E294AD0A60B0F4434468F0B /* TPOAudioRecordManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E60F0CEF08F6B87CA7E77161017610 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2B0DA35772F9F6531314F99C5E2BBDD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		C7F8E19DF007724D472F873813DC9EF8 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAD12EC4165B2CC0B80A5E7168037F4B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1AE79204B48326A9029B2BD16BFA19F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		D9561A7C99AD978BA82BEC10C9DFCE04 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB3740812B36D3398D516A9EB691B5B2 /* Pods-LBMusicPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE10C90EFE77A7DE246750BB782EB52 /* Pods-LBMusicPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCA10E5F874174BE29BC31E88DAB06D6 /* TPOAudioRecordManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3D028C27306D2A6F14F03541370730 /* TPOAudioRecordManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCBA94B9BD9E5DD47BAF0C901C85ABC4 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E78EB7439BA53D5CB70556EA2FD4F /* Masonry-dummy.m */; };
-		EC276D99797A5947F84D1AB0BDD5B215 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F613B5D6E3B1E8CFE1CC84EEE2BBC2 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCBA94B9BD9E5DD47BAF0C901C85ABC4 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
+		EC276D99797A5947F84D1AB0BDD5B215 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEA2BC374808F10100D37AF9A1AEB25D /* TPOPlayMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F49D2E2D6CF096C521CFDA351808928 /* TPOPlayMusicManager.m */; };
 		F083D8E141B142AE88918880B09C6921 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
-		F1F7EA0A021AF4A11E1C1D221186B378 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 173D7C9146B7659ECD5C6188D870341C /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F53E3A2A1B6B94BF66E65E3A048C6769 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BD83F7987C4C8D5971D1E7A5F79B1A /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F70096947E7F91201BC9FACCF008FE9C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA655DB8CD6B8F9781B73EF32F53D7 /* NSArray+MASAdditions.m */; };
-		FAE0E64D9CA7B0995AFF40354C86AB14 /* LBMusicPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B238611A703A150C3748FE9BCD0672 /* LBMusicPlayer-dummy.m */; };
-		FB287C8C9B391263D2F9A8666ADF1E2B /* TPOAudioRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6187D3E7226F2661FB0F6ED33659ED0 /* TPOAudioRecordManager.m */; };
-		FCE43D464D18874613D40BCAF034A404 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B2035730AD8B120DF4D4A91F97D8FC92 /* MASViewAttribute.m */; };
+		F1F7EA0A021AF4A11E1C1D221186B378 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53E3A2A1B6B94BF66E65E3A048C6769 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70096947E7F91201BC9FACCF008FE9C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		FCE43D464D18874613D40BCAF034A404 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
 		FE3E37E548D42DAFCA6AFC63DD8BD4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +54,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AD982768DBD7A38AFF2710C82DB6E6BA;
+			remoteGlobalIDString = 7DC9304DB4A0978AF94843E3CD667B62;
 			remoteInfo = LBMusicPlayer;
 		};
 		CAE4B9F9126EB0E57A03C878B9A1151C /* PBXContainerItemProxy */ = {
@@ -66,62 +67,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1053640C7FA94D77EAD25C01B57A146F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		157722C2E6BD509C65B230FB3AC6BDE1 /* Pods-LBMusicPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBMusicPlayer-resources.sh"; sourceTree = "<group>"; };
-		164EECD37B76780FECF552C05FF552B9 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		173D7C9146B7659ECD5C6188D870341C /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		1FF382390B5B90D5D6E885BAB02E5149 /* LBMusicPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBMusicPlayer-umbrella.h"; sourceTree = "<group>"; };
-		23EC65F4D4CA6DEB899E1D7A3A162FBD /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		26549F73E2DA1F4961EB660E93574AE1 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		26EA655DB8CD6B8F9781B73EF32F53D7 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		2A2BC3F9D7792600E14E24CB25783C15 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		235BA31B548086F86362018DF0D49D64 /* LBMusicPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBMusicPlayer-dummy.m"; sourceTree = "<group>"; };
 		2D160A2E8FE96942E3B3453F3796E76E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3C97590529B730D00D29C38AE2E4AC51 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		32218F0B2F3C244E42AD9A6552204F00 /* LBMusicPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBMusicPlayer.xcconfig; sourceTree = "<group>"; };
+		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		41C3DD4D6B7FC39F29583554381DAB82 /* TPOPlayMusicManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPOPlayMusicManager.h; sourceTree = "<group>"; };
 		469AF4AAEE6AB792DDC8D84257176012 /* Pods-LBMusicPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBMusicPlayer-dummy.m"; sourceTree = "<group>"; };
+		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		5C30ED560B2479CF5A8BAEF8602496AD /* LBMusicPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBMusicPlayer-prefix.pch"; sourceTree = "<group>"; };
+		5F49D2E2D6CF096C521CFDA351808928 /* TPOPlayMusicManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPOPlayMusicManager.m; sourceTree = "<group>"; };
 		5FE10C90EFE77A7DE246750BB782EB52 /* Pods-LBMusicPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBMusicPlayer-umbrella.h"; sourceTree = "<group>"; };
 		6011291295772C9FB2B45864E4AE4F3B /* LBMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBMusicPlayer.framework; path = LBMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		682FB290AC2D9A7CF2A6A22FCD5CB3EF /* LBMusicPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBMusicPlayer.xcconfig; sourceTree = "<group>"; };
-		6B40608E0120D6A91EC18C135B08440F /* LBMusicPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBMusicPlayer-prefix.pch"; sourceTree = "<group>"; };
+		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		6FCF6D1E2E294AD0A60B0F4434468F0B /* TPOAudioRecordManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPOAudioRecordManager.h; sourceTree = "<group>"; };
 		730F650169B712DCEDB6DFA6C5AD1685 /* Pods-LBMusicPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBMusicPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
 		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		761B67C5A4A909D44952BCEE2B3D22EB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		774728FBAFC2A3D3F3E0AB4CFB3869CC /* Pods-LBMusicPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBMusicPlayer-frameworks.sh"; sourceTree = "<group>"; };
-		7B53EF8A60BA9DFE11B5D2A1BE028D31 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		776770033E4F9D947E67ED05705FC856 /* LBMusicPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBMusicPlayer-umbrella.h"; sourceTree = "<group>"; };
+		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		7FEB45C67572B215BA745121D76F762B /* Pods-LBMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
-		80BD83F7987C4C8D5971D1E7A5F79B1A /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		864CB1ED13D3088A72E1D341E454DA20 /* Pods-LBMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		87A3F15F813690487E899E797AF0957E /* LBMusicPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBMusicPlayer.modulemap; sourceTree = "<group>"; };
-		895B03269B5A6D3CCE92EAF12FD9D487 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		8E2726BC4C9A1AC375953C8756C71AD2 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		8EB33B8AF979F146A1134ECA7684A5C6 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		88FF07A6CF894B10378EDA033445B2F9 /* LBMusicPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBMusicPlayer.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		950612A5D9AEE866BE1DF2FA33139C65 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		9BE5BD37F995F504556AD2BE63112EFF /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		9C24560CEB381C8019DD0233CAC2D2D3 /* LBMusicPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBMusicPlayer.h; path = Classes/LBMusicPlayer.h; sourceTree = "<group>"; };
 		9C8FCFB0B5DE13E05B161F91EFB04A7C /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FC55E49AD201DDBCF3474207190E4D6 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		ACF85503B047ECB303B17DBFDAA70641 /* Pods_LBMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBMusicPlayer.framework; path = "Pods-LBMusicPlayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2035730AD8B120DF4D4A91F97D8FC92 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		B272304825BB59486371ACC79F99AEC1 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		B42CBEE0393D0A8EE175CCEFDA9AC851 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		B4B238611A703A150C3748FE9BCD0672 /* LBMusicPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBMusicPlayer-dummy.m"; sourceTree = "<group>"; };
-		B6187D3E7226F2661FB0F6ED33659ED0 /* TPOAudioRecordManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPOAudioRecordManager.m; path = Classes/AudioRecord/TPOAudioRecordManager.m; sourceTree = "<group>"; };
+		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		B68810A842EAD1E07F55E994A4EBEE24 /* Pods-LBMusicPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LBMusicPlayer.modulemap"; sourceTree = "<group>"; };
-		B6F613B5D6E3B1E8CFE1CC84EEE2BBC2 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		B73EB22C95F7B3F1428D0577158876C1 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		B8281675F924ED6CEFB7188A9409576E /* Pods-LBMusicPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBMusicPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
-		BEED944F2D7F8A36882FC95149654381 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		C382ECF3992737173E67EE0DC2CCD322 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		CB3D028C27306D2A6F14F03541370730 /* TPOAudioRecordManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPOAudioRecordManager.h; path = Classes/AudioRecord/TPOAudioRecordManager.h; sourceTree = "<group>"; };
-		CD25AA0BA160E32F4C354619E46DC303 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5C4AB29862E514D69D36AEA446D5D4E /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		D800341D6A9ABE00A9751C0ABAE24D96 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		D931696D277EB6E3265AF1F1C2EDB296 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		E97185DDE12549C0A38B484639594A28 /* TPOPlayMusicManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPOPlayMusicManager.m; path = Classes/MusicPlayer/TPOPlayMusicManager.m; sourceTree = "<group>"; };
-		EC5295107AF3B44536F979F334217380 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		ED5E78EB7439BA53D5CB70556EA2FD4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		ED8127ADEF922579B70D3858305E7FFF /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		F879D89A5B05F7C01D987EFBC5F9A451 /* TPOPlayMusicManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPOPlayMusicManager.h; path = Classes/MusicPlayer/TPOPlayMusicManager.h; sourceTree = "<group>"; };
+		C067F5A5EC29B578C41D270FDE7078DE /* TPOAudioRecordManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPOAudioRecordManager.m; sourceTree = "<group>"; };
+		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		C8174EF890D2130491AD6483D1CE629E /* LBMusicPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LBMusicPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		63CD112ACAFFE3812A467BC32B4C81D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AE79204B48326A9029B2BD16BFA19F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6532EBCD7E4C294F0960F03DD0C128CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,31 +153,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE5A22DAC02DAF2DB753E17F6E0A3A26 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62FC1089C17519B0CDCF7BDF5500D06F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02BF6AC6641E6EB5316F9F121AB1B2F8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD25AA0BA160E32F4C354619E46DC303 /* Info.plist */,
-				BEED944F2D7F8A36882FC95149654381 /* Masonry.modulemap */,
-				B73EB22C95F7B3F1428D0577158876C1 /* Masonry.xcconfig */,
-				ED5E78EB7439BA53D5CB70556EA2FD4F /* Masonry-dummy.m */,
-				26549F73E2DA1F4961EB660E93574AE1 /* Masonry-prefix.pch */,
-				80BD83F7987C4C8D5971D1E7A5F79B1A /* Masonry-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
 		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,19 +163,6 @@
 				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		09DD2B483182C0D8D1A76CA2133ACBF1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				87A3F15F813690487E899E797AF0957E /* LBMusicPlayer.modulemap */,
-				682FB290AC2D9A7CF2A6A22FCD5CB3EF /* LBMusicPlayer.xcconfig */,
-				B4B238611A703A150C3748FE9BCD0672 /* LBMusicPlayer-dummy.m */,
-				6B40608E0120D6A91EC18C135B08440F /* LBMusicPlayer-prefix.pch */,
-				1FF382390B5B90D5D6E885BAB02E5149 /* LBMusicPlayer-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LBMusicPlayer";
 			sourceTree = "<group>";
 		};
 		26BB60665FB9E21D6C02AB45905A1BDD /* Products */ = {
@@ -199,49 +175,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3CA86C3AE1D780737D8263B9B02C8383 /* AudioRecord */ = {
-			isa = PBXGroup;
-			children = (
-				CB3D028C27306D2A6F14F03541370730 /* TPOAudioRecordManager.h */,
-				B6187D3E7226F2661FB0F6ED33659ED0 /* TPOAudioRecordManager.m */,
-			);
-			name = AudioRecord;
-			sourceTree = "<group>";
-		};
-		3CCFFF2EC5666B8E4A70FC5F8DCA3307 /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				761B67C5A4A909D44952BCEE2B3D22EB /* MASCompositeConstraint.h */,
-				1053640C7FA94D77EAD25C01B57A146F /* MASCompositeConstraint.m */,
-				895B03269B5A6D3CCE92EAF12FD9D487 /* MASConstraint.h */,
-				7B53EF8A60BA9DFE11B5D2A1BE028D31 /* MASConstraint.m */,
-				B6F613B5D6E3B1E8CFE1CC84EEE2BBC2 /* MASConstraint+Private.h */,
-				D800341D6A9ABE00A9751C0ABAE24D96 /* MASConstraintMaker.h */,
-				3C97590529B730D00D29C38AE2E4AC51 /* MASConstraintMaker.m */,
-				D5C4AB29862E514D69D36AEA446D5D4E /* MASLayoutConstraint.h */,
-				2A2BC3F9D7792600E14E24CB25783C15 /* MASLayoutConstraint.m */,
-				B272304825BB59486371ACC79F99AEC1 /* Masonry.h */,
-				173D7C9146B7659ECD5C6188D870341C /* MASUtilities.h */,
-				950612A5D9AEE866BE1DF2FA33139C65 /* MASViewAttribute.h */,
-				B2035730AD8B120DF4D4A91F97D8FC92 /* MASViewAttribute.m */,
-				C382ECF3992737173E67EE0DC2CCD322 /* MASViewConstraint.h */,
-				8E2726BC4C9A1AC375953C8756C71AD2 /* MASViewConstraint.m */,
-				23EC65F4D4CA6DEB899E1D7A3A162FBD /* NSArray+MASAdditions.h */,
-				26EA655DB8CD6B8F9781B73EF32F53D7 /* NSArray+MASAdditions.m */,
-				9FC55E49AD201DDBCF3474207190E4D6 /* NSArray+MASShorthandAdditions.h */,
-				EC5295107AF3B44536F979F334217380 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				D931696D277EB6E3265AF1F1C2EDB296 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				8EB33B8AF979F146A1134ECA7684A5C6 /* View+MASAdditions.h */,
-				B42CBEE0393D0A8EE175CCEFDA9AC851 /* View+MASAdditions.m */,
-				ED8127ADEF922579B70D3858305E7FFF /* View+MASShorthandAdditions.h */,
-				9BE5BD37F995F504556AD2BE63112EFF /* ViewController+MASAdditions.h */,
-				164EECD37B76780FECF552C05FF552B9 /* ViewController+MASAdditions.m */,
-				02BF6AC6641E6EB5316F9F121AB1B2F8 /* Support Files */,
-			);
-			name = Masonry;
-			path = Masonry;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,44 +183,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A4CBF3DE113F4B09CB2731323E7132F /* Pods */ = {
+		44756F0FBDA3B0C4118F8885C94AB5A8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				785933B5DF65106DDE63B2AC01AE6F70 /* LBMusicPlayer */,
-				3CCFFF2EC5666B8E4A70FC5F8DCA3307 /* Masonry */,
+				88FF07A6CF894B10378EDA033445B2F9 /* LBMusicPlayer.modulemap */,
+				32218F0B2F3C244E42AD9A6552204F00 /* LBMusicPlayer.xcconfig */,
+				235BA31B548086F86362018DF0D49D64 /* LBMusicPlayer-dummy.m */,
+				5C30ED560B2479CF5A8BAEF8602496AD /* LBMusicPlayer-prefix.pch */,
+				776770033E4F9D947E67ED05705FC856 /* LBMusicPlayer-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "Pods/Target Support Files/LBMusicPlayer";
 			sourceTree = "<group>";
 		};
-		770D04826903FEC36DCB395461A089D5 /* MusicPlayer */ = {
+		60D529CD9FDB997BAF5C3EED6CCEC942 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				F879D89A5B05F7C01D987EFBC5F9A451 /* TPOPlayMusicManager.h */,
-				E97185DDE12549C0A38B484639594A28 /* TPOPlayMusicManager.m */,
+				D448F34C34DD058C606B83DC43632A52 /* MusicPlayer */,
 			);
 			name = MusicPlayer;
 			sourceTree = "<group>";
 		};
-		785933B5DF65106DDE63B2AC01AE6F70 /* LBMusicPlayer */ = {
+		69B8AB4AF4A066F6DF3BA1E04B96CA8F /* AudioRecord */ = {
 			isa = PBXGroup;
 			children = (
-				3CA86C3AE1D780737D8263B9B02C8383 /* AudioRecord */,
-				770D04826903FEC36DCB395461A089D5 /* MusicPlayer */,
-				09DD2B483182C0D8D1A76CA2133ACBF1 /* Support Files */,
+				6FCF6D1E2E294AD0A60B0F4434468F0B /* TPOAudioRecordManager.h */,
+				C067F5A5EC29B578C41D270FDE7078DE /* TPOAudioRecordManager.m */,
 			);
-			name = LBMusicPlayer;
-			path = LBMusicPlayer;
+			name = AudioRecord;
+			path = Classes/AudioRecord;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9354A39B9990937D75CF1F8575BAC7D7 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				6A4CBF3DE113F4B09CB2731323E7132F /* Pods */,
+				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
 				26BB60665FB9E21D6C02AB45905A1BDD /* Products */,
 				E0C1A6327C1B1BC7AB4DD399063BA49D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9354A39B9990937D75CF1F8575BAC7D7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98E0FC813FFAD0BCB661299D42B3CB61 /* LBMusicPlayer */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		93FF29C628CD3D8E6AD655DB8E89864A /* Pods-LBMusicPlayer */ = {
@@ -308,6 +252,93 @@
 			path = "Target Support Files/Pods-LBMusicPlayer";
 			sourceTree = "<group>";
 		};
+		98E0FC813FFAD0BCB661299D42B3CB61 /* LBMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A0609BE5D2FE70F5E0CEEBA44D22F25E /* AudioRecord */,
+				60D529CD9FDB997BAF5C3EED6CCEC942 /* MusicPlayer */,
+				B930AE2E02B75354C38588EA0D0668F1 /* Pod */,
+				44756F0FBDA3B0C4118F8885C94AB5A8 /* Support Files */,
+			);
+			name = LBMusicPlayer;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A0609BE5D2FE70F5E0CEEBA44D22F25E /* AudioRecord */ = {
+			isa = PBXGroup;
+			children = (
+				9C24560CEB381C8019DD0233CAC2D2D3 /* LBMusicPlayer.h */,
+				69B8AB4AF4A066F6DF3BA1E04B96CA8F /* AudioRecord */,
+			);
+			name = AudioRecord;
+			sourceTree = "<group>";
+		};
+		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */,
+				537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */,
+				ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */,
+				986CB32629319F7F2256662716334944 /* MASConstraint.m */,
+				77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */,
+				A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */,
+				FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */,
+				C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */,
+				611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */,
+				303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */,
+				AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */,
+				96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */,
+				0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */,
+				1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */,
+				6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */,
+				5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */,
+				B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */,
+				F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */,
+				2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */,
+				7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */,
+				61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */,
+				C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */,
+				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
+				D253588BAFB01A953DA60C10CD597F84 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		B930AE2E02B75354C38588EA0D0668F1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C8174EF890D2130491AD6483D1CE629E /* LBMusicPlayer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D253588BAFB01A953DA60C10CD597F84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */,
+				36C40591902578632718E317104564A2 /* Masonry.modulemap */,
+				3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */,
+				818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */,
+				E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */,
+				1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		D448F34C34DD058C606B83DC43632A52 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				41C3DD4D6B7FC39F29583554381DAB82 /* TPOPlayMusicManager.h */,
+				5F49D2E2D6CF096C521CFDA351808928 /* TPOPlayMusicManager.m */,
+			);
+			name = MusicPlayer;
+			path = Classes/MusicPlayer;
+			sourceTree = "<group>";
+		};
 		E0C1A6327C1B1BC7AB4DD399063BA49D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,16 +347,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		248B928FF1F863B9F08DC909FDA354C8 /* Headers */ = {
+		27C0A0580DA25F78665CE661E75F0247 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE67A7DC268775641AD23E9CF83BE1E /* LBMusicPlayer-umbrella.h in Headers */,
-				DCA10E5F874174BE29BC31E88DAB06D6 /* TPOAudioRecordManager.h in Headers */,
-				2D384AEC0A054664373683FD0B758073 /* TPOPlayMusicManager.h in Headers */,
+				AEB188ABF95527BA43A64610DEDA1711 /* LBMusicPlayer-umbrella.h in Headers */,
+				AC2D1F0CD03398E9C0C94959A2ED12B0 /* LBMusicPlayer.h in Headers */,
+				BB5A75CBE25E0602D28EB28BE60E03AD /* TPOAudioRecordManager.h in Headers */,
+				2DAD1707183BB3AE930532A52AC6DD20 /* TPOPlayMusicManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,14 +423,14 @@
 			productReference = ACF85503B047ECB303B17DBFDAA70641 /* Pods_LBMusicPlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AD982768DBD7A38AFF2710C82DB6E6BA /* LBMusicPlayer */ = {
+		7DC9304DB4A0978AF94843E3CD667B62 /* LBMusicPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43FE3EA9EAE1F7947AD5DE8ACF44E9F6 /* Build configuration list for PBXNativeTarget "LBMusicPlayer" */;
+			buildConfigurationList = DB95A479C1DB3A9E59AF30002D6C31C2 /* Build configuration list for PBXNativeTarget "LBMusicPlayer" */;
 			buildPhases = (
-				248B928FF1F863B9F08DC909FDA354C8 /* Headers */,
-				B0ADF5C7F1AB97DF063F95C844AF672A /* Sources */,
-				FE5A22DAC02DAF2DB753E17F6E0A3A26 /* Frameworks */,
-				BD7233EA630D9C499584555504981C68 /* Resources */,
+				27C0A0580DA25F78665CE661E75F0247 /* Headers */,
+				75F091D416AFCB0572E8168BD38D6B43 /* Sources */,
+				63CD112ACAFFE3812A467BC32B4C81D6 /* Frameworks */,
+				C5B972363DB9D2E36D37FAE41591F76E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -440,7 +480,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD982768DBD7A38AFF2710C82DB6E6BA /* LBMusicPlayer */,
+				7DC9304DB4A0978AF94843E3CD667B62 /* LBMusicPlayer */,
 				FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */,
 				34654EB570A252EA5BF6C0328A2C6919 /* Pods-LBMusicPlayer */,
 			);
@@ -462,7 +502,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD7233EA630D9C499584555504981C68 /* Resources */ = {
+		C5B972363DB9D2E36D37FAE41591F76E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -477,6 +517,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F3E1B08EF69F77AEEAF19833F92E176 /* Pods-LBMusicPlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F091D416AFCB0572E8168BD38D6B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0102D6E4770E53C8B5EDB90FE32E7A /* LBMusicPlayer-dummy.m in Sources */,
+				80D5ADCB3C4BFF2BCC7A8C9D0FEB360E /* TPOAudioRecordManager.m in Sources */,
+				EEA2BC374808F10100D37AF9A1AEB25D /* TPOPlayMusicManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,23 +548,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0ADF5C7F1AB97DF063F95C844AF672A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAE0E64D9CA7B0995AFF40354C86AB14 /* LBMusicPlayer-dummy.m in Sources */,
-				FB287C8C9B391263D2F9A8666ADF1E2B /* TPOAudioRecordManager.m in Sources */,
-				254A181E1D29E1753C8BB7E8C0C7F654 /* TPOPlayMusicManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		13F682AA74B6B094E22D136B16A884F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LBMusicPlayer;
-			target = AD982768DBD7A38AFF2710C82DB6E6BA /* LBMusicPlayer */;
+			target = 7DC9304DB4A0978AF94843E3CD667B62 /* LBMusicPlayer */;
 			targetProxy = 4BDA0B44C4CC2A56A23292AA78683A9B /* PBXContainerItemProxy */;
 		};
 		F7029C803E3AB9F27A0EA8B6B9E8F18D /* PBXTargetDependency */ = {
@@ -564,78 +604,9 @@
 			};
 			name = Release;
 		};
-		1CC634611A5968C588BE373243F9FAF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 682FB290AC2D9A7CF2A6A22FCD5CB3EF /* LBMusicPlayer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LBMusicPlayer/LBMusicPlayer-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/LBMusicPlayer/LBMusicPlayer.modulemap";
-				PRODUCT_MODULE_NAME = LBMusicPlayer;
-				PRODUCT_NAME = LBMusicPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3C761DDB7689C5C0B520AA302225CFA8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 682FB290AC2D9A7CF2A6A22FCD5CB3EF /* LBMusicPlayer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LBMusicPlayer/LBMusicPlayer-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/LBMusicPlayer/LBMusicPlayer.modulemap";
-				PRODUCT_MODULE_NAME = LBMusicPlayer;
-				PRODUCT_NAME = LBMusicPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		58DA1C6C94008EACB2CCE2CCDCA51A6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B73EB22C95F7B3F1428D0577158876C1 /* Masonry.xcconfig */;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -729,6 +700,41 @@
 			};
 			name = Release;
 		};
+		661E9E5CB85A83F54AA20D66161C6898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32218F0B2F3C244E42AD9A6552204F00 /* LBMusicPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBMusicPlayer/LBMusicPlayer-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/LBMusicPlayer/LBMusicPlayer.modulemap";
+				PRODUCT_MODULE_NAME = LBMusicPlayer;
+				PRODUCT_NAME = LBMusicPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -795,9 +801,43 @@
 			};
 			name = Debug;
 		};
+		AC224425FA365730206AC9212477BBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32218F0B2F3C244E42AD9A6552204F00 /* LBMusicPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBMusicPlayer/LBMusicPlayer-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/LBMusicPlayer/LBMusicPlayer.modulemap";
+				PRODUCT_MODULE_NAME = LBMusicPlayer;
+				PRODUCT_NAME = LBMusicPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DD53FB1BF6B9A967B4724365DC60F293 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B73EB22C95F7B3F1428D0577158876C1 /* Masonry.xcconfig */;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -879,15 +919,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43FE3EA9EAE1F7947AD5DE8ACF44E9F6 /* Build configuration list for PBXNativeTarget "LBMusicPlayer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1CC634611A5968C588BE373243F9FAF4 /* Debug */,
-				3C761DDB7689C5C0B520AA302225CFA8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5B13DE22B5C4E192102F619C32379A85 /* Build configuration list for PBXNativeTarget "Pods-LBMusicPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -902,6 +933,15 @@
 			buildConfigurations = (
 				58DA1C6C94008EACB2CCE2CCDCA51A6C /* Debug */,
 				DD53FB1BF6B9A967B4724365DC60F293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB95A479C1DB3A9E59AF30002D6C31C2 /* Build configuration list for PBXNativeTarget "LBMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC224425FA365730206AC9212477BBBD /* Debug */,
+				661E9E5CB85A83F54AA20D66161C6898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

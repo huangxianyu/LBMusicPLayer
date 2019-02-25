@@ -7,10 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "TPOAudioRecordManager.h"
-#import "TPOPlayMusicManager.h" // 导入方式1
-//#import <LBMusicPlayer/TPOAudioRecordManager.h> // 导入方式2
-#import "LBMusicPlayerView.h"
+//#import "TPOAudioRecordManager.h"
+//#import "TPOPlayMusicManager.h"
+//#import <LBMusicPlayer/TPOAudioRecordManager.h>
+#import "LBMusicPlayer.h"
 
 @interface ViewController ()
 
@@ -21,9 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    LBMusicPlayerView *playerView = [[LBMusicPlayerView alloc] initWithPlayerType:LBMusicPlayerThumbDefault frame:CGRectMake(10, 100, 400, 100)];
-    [playerView playWithUrl:[NSURL URLWithString:@"https://a-pubres-cet.langlib.com/foreign/tpo/TPO-054/listening/TPO-054L2.mp3"]];
-    [self.view addSubview:playerView];
+    
 }
 
 
