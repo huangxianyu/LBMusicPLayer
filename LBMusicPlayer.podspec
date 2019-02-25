@@ -13,29 +13,21 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/huangxianyu/LBMusicPlayer.git", :tag => "#{s.version}" }
 
-  #s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  #s.public_header_files = "Classes/**/*.h"
+  s.source_files  = "Classes", "Classes/LBMusicPlayer.h"
+  s.public_header_files = "Classes/LBMusicPlayer.h"
   #s.resource  = "LBMusicPlayer/Assets.xcassets"
   s.static_framework = true
   s.requires_arc = true
   #s.dependency 'AFNetworking'
 
   s.subspec 'MusicPlayer' do |ss|
-    ss.source_files  = "Classes", "Classes/MusicPlayer/**/*.{h,m}"
-    ss.public_header_files = "Classes", "Classes/MusicPlayer/**/*.h"
+    ss.source_files  = "Classes", "Classes/MusicPlayer/*.{h,m}"
+    ss.public_header_files = "Classes", "Classes/MusicPlayer/*.h"
   end
 
   s.subspec 'AudioRecord' do |ss|
-    ss.source_files  = "Classes", "Classes/AudioRecord/**/*.{h,m}"
-    ss.public_header_files = "Classes", "Classes/AudioRecord/**/*.h"
-  end
-
-  s.subspec 'MusicPlayerUI' do |ss|
-    ss.source_files  = "Classes", "Classes/MusicPlayerUI/**/*.{h,m}"
-    ss.public_header_files = "Classes", "Classes/MusicPlayerUI/**/*.h"
-    ss.source = "Classes/Resources/LBMusicPlayer.bundle"
-    ss.dependency 'Masonry', '~> 1.1.0' 
-    ss.dependency 'LBMusicPlayer/MusicPlayer' 
+    ss.source_files  = "Classes", "Classes/AudioRecord/*.{h,m}"
+    ss.public_header_files = "Classes", "Classes/AudioRecord/*.h"
   end
 
 end

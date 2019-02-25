@@ -61,6 +61,7 @@
 		118D41FF2223BC380054F83B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		118D42012223BE7B0054F83B /* LBMusicPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBMusicPlayerView.h; sourceTree = "<group>"; };
 		118D42022223BE7B0054F83B /* LBMusicPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBMusicPlayerView.m; sourceTree = "<group>"; };
+		118D42072223CF630054F83B /* LBMusicPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMusicPlayer.h; sourceTree = "<group>"; };
 		5154C9A6282B0F3FEFAD8FA6 /* Pods-LBMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBMusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBMusicPlayer/Pods-LBMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		56633053A76077EA18944000 /* Pods_LBMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA668A7D71E3A9C63C699F4 /* Pods-LBMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBMusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBMusicPlayer/Pods-LBMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +133,7 @@
 		118D41E92223B99A0054F83B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				118D42072223CF630054F83B /* LBMusicPlayer.h */,
 				118D42062223C5570054F83B /* Resources */,
 				118D41FD2223BC0F0054F83B /* Category */,
 				118D41F82223BAD00054F83B /* Command */,
