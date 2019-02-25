@@ -21,7 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
+    [[TPOPlayMusicManager sharePlayMusicManager] playMusicStauts:^(TPOPlayMusicStatus status) {
+        
+    }];
 }
 
 
