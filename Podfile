@@ -8,4 +8,5 @@ target 'LBMusicPlayer' do
 
     #pod 'LBMusicPlayer', :path => '../LBMusicPlayer'
     pod 'LBMusicPlayer', '~> 0.0.2'
+    pod 'Masonry', '~> 1.1.0'
 end

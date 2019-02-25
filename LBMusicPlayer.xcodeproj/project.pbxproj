@@ -13,6 +13,11 @@
 		1179B6FC221C0D4A00463148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1179B6FB221C0D4A00463148 /* Assets.xcassets */; };
 		1179B6FF221C0D4A00463148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1179B6FD221C0D4A00463148 /* LaunchScreen.storyboard */; };
 		1179B702221C0D4A00463148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1179B701221C0D4A00463148 /* main.m */; };
+		118D41F02223B99A0054F83B /* TPOPlayMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 118D41EC2223B99A0054F83B /* TPOPlayMusicManager.m */; };
+		118D41F12223B99A0054F83B /* TPOAudioRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 118D41EE2223B99A0054F83B /* TPOAudioRecordManager.m */; };
+		118D41F32223B9F70054F83B /* LBMusicPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 118D41F22223B9F70054F83B /* LBMusicPlayer.bundle */; };
+		118D42002223BC380054F83B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 118D41FF2223BC380054F83B /* UIColor+Hex.m */; };
+		118D42032223BE7B0054F83B /* LBMusicPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 118D42022223BE7B0054F83B /* LBMusicPlayerView.m */; };
 		572F15041060B370EAEE788A /* Pods_LBMusicPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56633053A76077EA18944000 /* Pods_LBMusicPlayer.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +51,16 @@
 		1179B701221C0D4A00463148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1179B707221C0D4B00463148 /* LBMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1179B712221C0D4B00463148 /* LBMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		118D41EB2223B99A0054F83B /* TPOPlayMusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPOPlayMusicManager.h; sourceTree = "<group>"; };
+		118D41EC2223B99A0054F83B /* TPOPlayMusicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPOPlayMusicManager.m; sourceTree = "<group>"; };
+		118D41EE2223B99A0054F83B /* TPOAudioRecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPOAudioRecordManager.m; sourceTree = "<group>"; };
+		118D41EF2223B99A0054F83B /* TPOAudioRecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPOAudioRecordManager.h; sourceTree = "<group>"; };
+		118D41F22223B9F70054F83B /* LBMusicPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LBMusicPlayer.bundle; sourceTree = "<group>"; };
+		118D41F92223BB320054F83B /* LBMusicPlayerCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMusicPlayerCommand.h; sourceTree = "<group>"; };
+		118D41FE2223BC380054F83B /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		118D41FF2223BC380054F83B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		118D42012223BE7B0054F83B /* LBMusicPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBMusicPlayerView.h; sourceTree = "<group>"; };
+		118D42022223BE7B0054F83B /* LBMusicPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBMusicPlayerView.m; sourceTree = "<group>"; };
 		5154C9A6282B0F3FEFAD8FA6 /* Pods-LBMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBMusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBMusicPlayer/Pods-LBMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		56633053A76077EA18944000 /* Pods_LBMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA668A7D71E3A9C63C699F4 /* Pods-LBMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBMusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBMusicPlayer/Pods-LBMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +115,7 @@
 		1179B6F1221C0D4800463148 /* LBMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				118D41E92223B99A0054F83B /* Classes */,
 				1179B6F2221C0D4800463148 /* AppDelegate.h */,
 				1179B6F3221C0D4800463148 /* AppDelegate.m */,
 				1179B6F5221C0D4800463148 /* ViewController.h */,
@@ -111,6 +127,71 @@
 				1179B701221C0D4A00463148 /* main.m */,
 			);
 			path = LBMusicPlayer;
+			sourceTree = "<group>";
+		};
+		118D41E92223B99A0054F83B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				118D42062223C5570054F83B /* Resources */,
+				118D41FD2223BC0F0054F83B /* Category */,
+				118D41F82223BAD00054F83B /* Command */,
+				118D41F42223BA930054F83B /* MusicPlayerUI */,
+				118D41EA2223B99A0054F83B /* MusicPlayer */,
+				118D41ED2223B99A0054F83B /* AudioRecord */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		118D41EA2223B99A0054F83B /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				118D41EB2223B99A0054F83B /* TPOPlayMusicManager.h */,
+				118D41EC2223B99A0054F83B /* TPOPlayMusicManager.m */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		118D41ED2223B99A0054F83B /* AudioRecord */ = {
+			isa = PBXGroup;
+			children = (
+				118D41EE2223B99A0054F83B /* TPOAudioRecordManager.m */,
+				118D41EF2223B99A0054F83B /* TPOAudioRecordManager.h */,
+			);
+			path = AudioRecord;
+			sourceTree = "<group>";
+		};
+		118D41F42223BA930054F83B /* MusicPlayerUI */ = {
+			isa = PBXGroup;
+			children = (
+				118D42012223BE7B0054F83B /* LBMusicPlayerView.h */,
+				118D42022223BE7B0054F83B /* LBMusicPlayerView.m */,
+			);
+			path = MusicPlayerUI;
+			sourceTree = "<group>";
+		};
+		118D41F82223BAD00054F83B /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				118D41F92223BB320054F83B /* LBMusicPlayerCommand.h */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		118D41FD2223BC0F0054F83B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				118D41FE2223BC380054F83B /* UIColor+Hex.h */,
+				118D41FF2223BC380054F83B /* UIColor+Hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		118D42062223C5570054F83B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				118D41F22223B9F70054F83B /* LBMusicPlayer.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		35DDA4981F4A30E5416E7781 /* Frameworks */ = {
@@ -141,6 +222,7 @@
 				1179B6EB221C0D4800463148 /* Sources */,
 				1179B6EC221C0D4800463148 /* Frameworks */,
 				1179B6ED221C0D4800463148 /* Resources */,
+				D9EBD72D62EAF2D091782188 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118D41F32223B9F70054F83B /* LBMusicPlayer.bundle in Resources */,
 				1179B6FF221C0D4A00463148 /* LaunchScreen.storyboard in Resources */,
 				1179B6FC221C0D4A00463148 /* Assets.xcassets in Resources */,
 				1179B6FA221C0D4800463148 /* Main.storyboard in Resources */,
@@ -279,6 +362,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D9EBD72D62EAF2D091782188 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LBMusicPlayer/Pods-LBMusicPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBMusicPlayer/Pods-LBMusicPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -287,7 +392,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1179B6F7221C0D4800463148 /* ViewController.m in Sources */,
+				118D41F02223B99A0054F83B /* TPOPlayMusicManager.m in Sources */,
 				1179B702221C0D4A00463148 /* main.m in Sources */,
+				118D42002223BC380054F83B /* UIColor+Hex.m in Sources */,
+				118D41F12223B99A0054F83B /* TPOAudioRecordManager.m in Sources */,
+				118D42032223BE7B0054F83B /* LBMusicPlayerView.m in Sources */,
 				1179B6F4221C0D4800463148 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
