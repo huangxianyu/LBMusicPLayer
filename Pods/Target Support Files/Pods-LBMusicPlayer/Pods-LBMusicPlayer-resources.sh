@@ -91,6 +91,14 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/LBMusicPlayer/Classes"
+  install_resource "${PODS_ROOT}/LBMusicPlayer/Classes/MusicPlayerUI/Resources/LBMusicPlayer.bundle"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/LBMusicPlayer/Classes"
+  install_resource "${PODS_ROOT}/LBMusicPlayer/Classes/MusicPlayerUI/Resources/LBMusicPlayer.bundle"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

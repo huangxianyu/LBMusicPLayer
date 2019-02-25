@@ -10,10 +10,11 @@
 #endif
 #endif
 
-#import "LBMusicPlayer.h"
-#import "LBMusicPlayer.h"
 #import "TPOAudioRecordManager.h"
 #import "TPOPlayMusicManager.h"
+#import "UIColor+Hex.h"
+#import "LBMusicPlayerCommand.h"
+#import "LBMusicPlayerView.h"
 
 FOUNDATION_EXPORT double LBMusicPlayerVersionNumber;
 FOUNDATION_EXPORT const unsigned char LBMusicPlayerVersionString[];

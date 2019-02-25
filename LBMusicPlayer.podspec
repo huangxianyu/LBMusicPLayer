@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LBMusicPlayer"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "LBMusicPlayer"
   s.description  = <<-DESC
                         AVPlayer 播放和录音
@@ -31,8 +31,9 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'MusicPlayerUI' do |ss|
-    ss.source_files        = "Classes", "Classes/MusicPlayerUI/**/**/*.{h,m}"
-    ss.public_header_files = "Classes", "Classes/MusicPlayerUI/**/**/*.h"
+    ss.source_files        = "Classes", "Classes/MusicPlayerUI/**/*.{h,m}"
+    ss.public_header_files = "Classes", "Classes/MusicPlayerUI/**/*.h"
+
     ss.resource            = "Classes", "Classes/MusicPlayerUI/Resources/LBMusicPlayer.bundle"
     ss.dependency 'LBMusicPlayer/MusicPlayer'
     ss.dependency 'Masonry', '~> 1.1.0'

@@ -10,7 +10,8 @@
 //#import "TPOAudioRecordManager.h"
 //#import "TPOPlayMusicManager.h"
 //#import <LBMusicPlayer/TPOAudioRecordManager.h>
-
+#import <LBMusicPlayer/LBMusicPlayerView.h>
+//#import "LBMusicPlayerView.h"
 
 @interface ViewController ()
 
@@ -20,10 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    [[TPOPlayMusicManager sharePlayMusicManager] playMusicStauts:^(TPOPlayMusicStatus status) {
-        
-    }];
+    
+    LBMusicPlayerView *playerView = [[LBMusicPlayerView alloc] initWithPlayerType:LBMusicPlayerThumbDefault frame:CGRectMake(0, 100, 400, 50)];
+    [self.view addSubview:playerView];
 }
 
 
