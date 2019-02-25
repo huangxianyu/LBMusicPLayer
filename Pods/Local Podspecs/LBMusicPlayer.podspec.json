@@ -1,6 +1,6 @@
 {
   "name": "LBMusicPlayer",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "summary": "LBMusicPlayer",
   "description": "AVPlayer 播放和录音",
   "homepage": "https://github.com/huangxianyu/LBMusicPlayer",
@@ -13,21 +13,17 @@
   },
   "source": {
     "git": "https://github.com/huangxianyu/LBMusicPlayer.git",
-    "tag": "0.0.4"
+    "tag": "0.0.7"
   },
+  "source_files": "Classes/LBMusicPlayer.h",
+  "public_header_files": "Classes/LBMusicPlayer.h",
   "static_framework": true,
   "requires_arc": true,
   "subspecs": [
     {
       "name": "MusicPlayer",
-      "source_files": [
-        "Classes",
-        "Classes/MusicPlayer/**/*.{h,m}"
-      ],
-      "public_header_files": [
-        "Classes",
-        "Classes/MusicPlayer/**/*.h"
-      ]
+      "source_files": "Classes/MusicPlayer/*.{h,m}",
+      "public_header_files": "Classes/MusicPlayer/*.h"
     },
     {
       "name": "AudioRecord",

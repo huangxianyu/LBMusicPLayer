@@ -1,9 +1,9 @@
 PODS:
-  - LBMusicPlayer (0.0.4):
-    - LBMusicPlayer/AudioRecord (= 0.0.4)
-    - LBMusicPlayer/MusicPlayer (= 0.0.4)
-  - LBMusicPlayer/AudioRecord (0.0.4)
-  - LBMusicPlayer/MusicPlayer (0.0.4)
+  - LBMusicPlayer (0.0.7):
+    - LBMusicPlayer/AudioRecord (= 0.0.7)
+    - LBMusicPlayer/MusicPlayer (= 0.0.7)
+  - LBMusicPlayer/AudioRecord (0.0.7)
+  - LBMusicPlayer/MusicPlayer (0.0.7)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../LBMusicPlayer"
 
 SPEC CHECKSUMS:
-  LBMusicPlayer: 74bfdad61fd4b4d799ddfc09c503c35f1adf6fe5
+  LBMusicPlayer: d4d9d1a522821ef0c4e8f0a690746b600f3078e4
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: e08e8378bbfeb10f1d16b45dd0868d52a9abc4ce
