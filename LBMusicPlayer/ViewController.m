@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "TPOPlayMusicManager.h"
+#import "TPOAudioRecordManager.h"
+#import "TPOPlayMusicManager.h" // 导入方式1
+#import <LBMusicPlayer/TPOAudioRecordManager.h> // 导入方式2
 
 @interface ViewController ()
 

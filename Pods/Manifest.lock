@@ -1,16 +1,20 @@
 PODS:
-  - LBMusicPlayer (0.0.1)
+  - LBMusicPlayer (0.0.2):
+    - LBMusicPlayer/AudioRecord (= 0.0.2)
+    - LBMusicPlayer/MusicPlayer (= 0.0.2)
+  - LBMusicPlayer/AudioRecord (0.0.2)
+  - LBMusicPlayer/MusicPlayer (0.0.2)
 
 DEPENDENCIES:
-  - LBMusicPlayer
+  - LBMusicPlayer (~> 0.0.2)
 
 SPEC REPOS:
   https://github.com/huangxianyu/XYRepo.git:
     - LBMusicPlayer
 
 SPEC CHECKSUMS:
-  LBMusicPlayer: 96c3573caa9834a68fb706b22ba5d8c882afb76b
+  LBMusicPlayer: 42e09946d1623a99898f9f91e3f5cf0e8924da43
 
-PODFILE CHECKSUM: 1c948892d85be76879802a9f46bb72e94282dceb
+PODFILE CHECKSUM: e3ecdb7d920f6d38c70d2f481684bb8f5067d400
 
 COCOAPODS: 1.5.3

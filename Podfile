@@ -7,5 +7,5 @@ use_frameworks!
 target 'LBMusicPlayer' do
 
     #pod 'LBMusicPlayer', :path => '../LBMusicPlayer'
-    pod 'LBMusicPlayer'
+    pod 'LBMusicPlayer', '~> 0.0.2'
 end

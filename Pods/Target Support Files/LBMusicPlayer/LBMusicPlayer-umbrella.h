@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TPOAudioRecordManager.h"
 #import "TPOPlayMusicManager.h"
 
 FOUNDATION_EXPORT double LBMusicPlayerVersionNumber;
