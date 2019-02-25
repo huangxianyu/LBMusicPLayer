@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LBMusicPlayer"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "LBMusicPlayer"
   s.description  = <<-DESC
                         AVPlayer 播放和录音
@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   #s.dependency 'AFNetworking'
 
   s.subspec 'MusicPlayer' do |ss|
-    ss.source_files        = "Classes", "Classes/MusicPlayer/**/*.{h,m}"
-    ss.public_header_files = "Classes", "Classes/MusicPlayer/**/*.h"
+    ss.source_files        = "Classes/MusicPlayer/*.{h,m}"
+    ss.public_header_files = "Classes/MusicPlayer/*.h"
   end
 
   s.subspec 'AudioRecord' do |ss|
