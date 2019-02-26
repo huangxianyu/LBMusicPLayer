@@ -6,7 +6,7 @@ use_frameworks!
 
 target 'LBMusicPlayer' do
 
-    #pod 'LBMusicPlayer', :path => '../LBMusicPlayer'
-    pod 'LBMusicPlayer'
-    pod 'Masonry', '~> 1.1.0'
+    pod 'LBMusicPlayer', :path => '../LBMusicPlayer'
+    #pod 'LBMusicPlayer', '~> 0.1.1'
+    #pod 'Masonry', '~> 1.1.0'
 end

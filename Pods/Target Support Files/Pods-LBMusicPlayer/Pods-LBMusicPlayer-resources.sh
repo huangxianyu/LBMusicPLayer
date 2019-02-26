@@ -92,12 +92,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/LBMusicPlayer/Classes"
-  install_resource "${PODS_ROOT}/LBMusicPlayer/Classes/MusicPlayerUI/Resources/LBMusicPlayer.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/LBMusicPlayer/LBMusicPlayer.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/LBMusicPlayer/Classes"
-  install_resource "${PODS_ROOT}/LBMusicPlayer/Classes/MusicPlayerUI/Resources/LBMusicPlayer.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/LBMusicPlayer/LBMusicPlayer.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LBMusicPlayer"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "LBMusicPlayer"
   s.description  = <<-DESC
                         AVPlayer 播放和录音
@@ -34,9 +34,25 @@ Pod::Spec.new do |s|
     ss.source_files        = "Classes", "Classes/MusicPlayerUI/**/*.{h,m}"
     ss.public_header_files = "Classes", "Classes/MusicPlayerUI/**/*.h"
 
-    ss.resource            = "Classes", "Classes/MusicPlayerUI/Resources/LBMusicPlayer.bundle"
+    #ss.resource            = "Classes/MusicPlayerUI/Resources/LBMusicPlayer.bundle"
+
+    ss.resource_bundles = {
+      'LBMusicPlayer' => ['Classes/MusicPlayerUI/Resources/LBMusicPlayer.bundle']
+    }
+
     ss.dependency 'LBMusicPlayer/MusicPlayer'
     ss.dependency 'Masonry', '~> 1.1.0'
+
+    # ss.pod_target_xcconfig = { 
+    #   "OTHER_LDFLAGS" => "$(inherited) -ObjC -all_load" 
+    # }
+
   end
+
+# target 项⽬目配置 如果有分类加上
+s.xcconfig = {
+  "OTHER_LDFLAGS" => "$(inherited) -ObjC -all_load"
+}
+  
 
 end

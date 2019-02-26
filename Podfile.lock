@@ -1,29 +1,30 @@
 PODS:
-  - LBMusicPlayer (0.1.0):
-    - LBMusicPlayer/AudioRecord (= 0.1.0)
-    - LBMusicPlayer/MusicPlayer (= 0.1.0)
-    - LBMusicPlayer/MusicPlayerUI (= 0.1.0)
-  - LBMusicPlayer/AudioRecord (0.1.0)
-  - LBMusicPlayer/MusicPlayer (0.1.0)
-  - LBMusicPlayer/MusicPlayerUI (0.1.0):
+  - LBMusicPlayer (0.1.2):
+    - LBMusicPlayer/AudioRecord (= 0.1.2)
+    - LBMusicPlayer/MusicPlayer (= 0.1.2)
+    - LBMusicPlayer/MusicPlayerUI (= 0.1.2)
+  - LBMusicPlayer/AudioRecord (0.1.2)
+  - LBMusicPlayer/MusicPlayer (0.1.2)
+  - LBMusicPlayer/MusicPlayerUI (0.1.2):
     - LBMusicPlayer/MusicPlayer
     - Masonry (~> 1.1.0)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - LBMusicPlayer
-  - Masonry (~> 1.1.0)
+  - LBMusicPlayer (from `../LBMusicPlayer`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Masonry
-  https://github.com/huangxianyu/XYRepo.git:
-    - LBMusicPlayer
+
+EXTERNAL SOURCES:
+  LBMusicPlayer:
+    :path: "../LBMusicPlayer"
 
 SPEC CHECKSUMS:
-  LBMusicPlayer: 986ade541357f7a4dfb5de6d1d08ce98a4c652e5
+  LBMusicPlayer: 9492aeef932b8d8726259d6a84b7babb6cdbd222
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: f697edd6e617fbb8ba12bc7d5db4550e7113a301
+PODFILE CHECKSUM: b29465d7829ae19e190c14bd1562bb62f4d59520
 
 COCOAPODS: 1.5.3

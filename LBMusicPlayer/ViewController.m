@@ -24,6 +24,8 @@
     
     LBMusicPlayerView *playerView = [[LBMusicPlayerView alloc] initWithPlayerType:LBMusicPlayerThumbDefault frame:CGRectMake(0, 100, 400, 50)];
     [self.view addSubview:playerView];
+    
+    
 }
 
 

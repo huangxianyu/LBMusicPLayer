@@ -1,0 +1,65 @@
+{
+  "name": "LBMusicPlayer",
+  "version": "0.1.2",
+  "summary": "LBMusicPlayer",
+  "description": "AVPlayer 播放和录音",
+  "homepage": "https://github.com/huangxianyu/LBMusicPlayer",
+  "license": "MIT",
+  "authors": {
+    "huangxianyu": "huangxianyu@langlib.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/huangxianyu/LBMusicPlayer.git",
+    "tag": "0.1.2"
+  },
+  "static_framework": true,
+  "requires_arc": true,
+  "xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -ObjC -all_load"
+  },
+  "subspecs": [
+    {
+      "name": "MusicPlayer",
+      "source_files": "Classes/MusicPlayer/**/*.{h,m}",
+      "public_header_files": "Classes/MusicPlayer/**/*.h"
+    },
+    {
+      "name": "AudioRecord",
+      "source_files": [
+        "Classes",
+        "Classes/AudioRecord/**/*.{h,m}"
+      ],
+      "public_header_files": [
+        "Classes",
+        "Classes/AudioRecord/**/*.h"
+      ]
+    },
+    {
+      "name": "MusicPlayerUI",
+      "source_files": [
+        "Classes",
+        "Classes/MusicPlayerUI/**/*.{h,m}"
+      ],
+      "public_header_files": [
+        "Classes",
+        "Classes/MusicPlayerUI/**/*.h"
+      ],
+      "resource_bundles": {
+        "LBMusicPlayer": [
+          "Classes/MusicPlayerUI/Resources/LBMusicPlayer.bundle"
+        ]
+      },
+      "dependencies": {
+        "LBMusicPlayer/MusicPlayer": [
+
+        ],
+        "Masonry": [
+          "~> 1.1.0"
+        ]
+      }
+    }
+  ]
+}
